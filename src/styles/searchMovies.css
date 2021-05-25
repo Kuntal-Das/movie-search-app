@@ -1,0 +1,46 @@
+.form {
+  display: grid;
+  margin-bottom: 1em;
+}
+
+.lable {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+  margin: 0.5em;
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 0.5em 2em;
+  line-height: 1.5em;
+  border-radius: 5em;
+  border: 1px solid #bbb;
+  margin-bottom: 0.5em;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: whitesmoke;
+  padding: 1em 2em;
+  border: 1px solid;
+  border-radius: 5em;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media (min-width: 775px) {
+  .form {
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 1em;
+    align-items: center;
+  }
+  input[type="text"] {
+    margin: 0;
+  }
+}
