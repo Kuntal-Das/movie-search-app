@@ -6,12 +6,12 @@
   background-color: whitesmoke;
 }
 
-.card--title{
+.card-title{
   margin-bottom: 0.5em;
-  font-size: 3.2rem;
+  font-size: 5rem;
 }
 
-.card--image{
+.card-img{
   margin: 0 auto;
   display: block;
 }
