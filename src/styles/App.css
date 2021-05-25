@@ -28,3 +28,7 @@ small {
   font-size: 4.4rem;
   text-align: center;
 }
+
+.card-list{
+  margin-top:2em;
+}

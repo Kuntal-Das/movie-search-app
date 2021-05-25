@@ -1,0 +1,17 @@
+.card{
+  padding: 2em 4em;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rba(0,0,0,0.25);
+  margin-bottom: 1em;
+  background-color: whitesmoke;
+}
+
+.card--title{
+  margin-bottom: 0.5em;
+  font-size: 3.2rem;
+}
+
+.card--image{
+  margin: 0 auto;
+  display: block;
+}
